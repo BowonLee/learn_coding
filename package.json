@@ -2,6 +2,7 @@
     "name": "vibe-coding-promo",
     "private": true,
     "version": "0.0.0",
+    "homepage": "https://bowonlee.github.io/learn_coding/",
     "type": "module",
     "scripts": {
         "dev": "vite",
