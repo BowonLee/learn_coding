@@ -21,7 +21,7 @@ const Hero = () => {
                 </h1>
                 <p className="text-lg md:text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
                     AI와 대화하며 만드는 나만의 웹사이트.<br />
-                    빠르게 만드는 것이 아니라, <strong>나아지게 만드는 법</strong>을 배웁니다.
+                    {/* 빠르게 만드는 것이 아니라, <strong>나아지게 만드는 법</strong>을 배웁니다. */}
                 </p>
 
                 <Link
