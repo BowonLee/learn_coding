@@ -123,6 +123,33 @@ const Environment = () => {
                             즉시는 아니더라도 꼼꼼히 확인해 드리겠습니다.
                         </p>
                     </motion.div>
+
+                    {/* Tool Overview */}
+                    <motion.div
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: 0.4 }}
+                        className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-12 text-left"
+                    >
+                        <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                            <h3 className="text-xl font-bold text-growth-green mb-2">Antigravity</h3>
+                            <p className="text-gray-300 text-sm leading-relaxed">
+                                Vibe Coding을 위한 필수 도구입니다. 복잡한 환경 설정을 자동화하고, AI와의 협업을 원활하게 돕는 역할을 합니다.
+                            </p>
+                        </div>
+                        <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                            <h3 className="text-xl font-bold text-hopeful-yellow mb-2">Git</h3>
+                            <p className="text-gray-300 text-sm leading-relaxed">
+                                내 코드를 저장하고 관리하는 '타임머신'입니다. 언제든 이전 상태로 되돌리거나 변경 사항을 추적할 수 있습니다.
+                            </p>
+                        </div>
+                        <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl border border-white/10">
+                            <h3 className="text-xl font-bold text-blue-400 mb-2">GitHub</h3>
+                            <p className="text-gray-300 text-sm leading-relaxed">
+                                내 코드를 전 세계와 공유하는 '온라인 저장소'입니다. 작업한 결과물을 배포하고, 포트폴리오로 활용할 수 있습니다.
+                            </p>
+                        </div>
+                    </motion.div>
                 </div>
             </section>
 
