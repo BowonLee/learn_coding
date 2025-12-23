@@ -53,7 +53,7 @@ const Layout = () => {
                 </div>
 
                 {/* Desktop Navigation */}
-                <nav className={`hidden md:flex ${navGap} transition-all duration-300`}>
+                <nav className={`hidden lg:flex ${navGap} transition-all duration-300`}>
                     {navLinks.map((link) => {
                         const isActive = location.pathname === link.path;
                         return (
@@ -71,7 +71,7 @@ const Layout = () => {
 
                 {/* Mobile Menu Button */}
                 <button
-                    className="md:hidden text-deep-charcoal p-2 focus:outline-none"
+                    className="lg:hidden text-deep-charcoal p-2 focus:outline-none"
                     onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
                 >
                     <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -84,7 +84,7 @@ const Layout = () => {
                 </button>
 
                 {/* Mobile Navigation Dropdown */}
-                <div className={`absolute top-full left-0 right-0 bg-white shadow-lg md:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen ? 'max-h-64 opacity-100' : 'max-h-0 opacity-0'}`}>
+                <div className={`absolute top-full left-0 right-0 bg-white shadow-lg lg:hidden overflow-hidden transition-all duration-300 ease-in-out ${isMobileMenuOpen ? 'max-h-[500px] opacity-100' : 'max-h-0 opacity-0'}`}>
                     <nav className="flex flex-col p-4 space-y-4">
                         {navLinks.map((link) => {
                             const isActive = location.pathname === link.path;
