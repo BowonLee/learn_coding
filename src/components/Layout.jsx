@@ -29,6 +29,8 @@ const Layout = () => {
         { name: 'Lecture Content', path: '/learn' },
         { name: 'Goal & Benefits', path: '/effect' },
         { name: 'Making Process', path: '/process' },
+        { name: 'Guide', path: '/guide' },
+        { name: 'Setup', path: '/environment' },
     ];
 
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
