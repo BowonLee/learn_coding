@@ -63,7 +63,15 @@ const steps = [
         ]
     },
     {
-        title: "Step 5: Git 및 GitHub 설정",
+        title: "Step 5: GitHub 가입",
+        description: "프로젝트를 저장하고 배포하기 위해 GitHub 계정을 생성합니다.",
+        links: [
+            { text: "GitHub 가입하기", url: "https://github.com/signup", primary: true }
+        ],
+        images: [] // No images for this step as requested by context, or placeholder if needed
+    },
+    {
+        title: "Step 6: Git 및 GitHub Desktop 설정",
         description: "버전 관리를 위해 Git과 GitHub Desktop을 설치합니다.",
         links: [
             { text: "Git 다운로드 Windows용", url: "https://git-scm.com/download/win", primary: false },
@@ -75,8 +83,8 @@ const steps = [
         ]
     },
     {
-        title: "Step 6: 설정 완료",
-        description: "모든 준비가 완료되었습니다! 이제 Vibe Coding을 시작할 수 있습니다.",
+        title: "Step 7: 설정 완료 및 배포 준비",
+        description: "모든 준비가 완료되었습니다! 이제 Vibe Coding을 시작할 수 있습니다. GitHub Pages로 배포하려면 Repository 설정에서 Pages Source를 'GitHub Actions'로 변경해야 합니다.",
         images: [
             { src: imgSettingComplete, caption: "설정 완료 확인" },
             { src: imgInstallComplete, caption: "준비 완료" }
